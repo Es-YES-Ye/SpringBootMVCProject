@@ -21,9 +21,12 @@ text-align: center;
 
 </head>
 <body>
+	<c:set var="path" value="${pageContext.request.contextPath}"/>
 	<h1>(｡•̀ᴗ-)✧ 게시 목록 ⍤</h1>
 	<br>
-	<a href="insert">글 쓰기</a>
+	<h1 align="center"><a href="insert">글 쓰기
+	<img alt="등록이미지" src="${path}/images/pink.png" width="100" height="100">
+	</a></h1>
 	<br>
 	<table class="table table-striped table-bordered table-hover ">
 		<tr>
